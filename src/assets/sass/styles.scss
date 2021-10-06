@@ -1,0 +1,66 @@
+// imports
+@import "./globals.scss";
+
+// globals
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ft-family);
+  background-color: var(--lightgray-clr);
+  font-size: var(--ft-size-n);
+  color: var(--dark-clr);
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+// utils
+.container {
+  max-width: 65rem;
+  padding: 1rem 1.6rem;
+  margin: 0 auto;
+}
+.fw-light {
+  font-weight: 300;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fs-small {
+  font-size: var(--ft-size-s);
+}
+.fs-normal {
+  font-size: var(--ft-size-n);
+}
+.fs-medium {
+  font-size: var(--ft-size-m);
+}
+.fs-large {
+  font-size: var(--ft-size-lg);
+}
+.btn {
+  font-family: var(--ft-family);
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--green-clr);
+  text-decoration: none;
+  background: var(--green-clr);
+  color: var(--white-clr);
+  outline: none;
+  cursor: pointer;
+  &:focus,
+  &:active {
+    border-width: 0.2rem;
+    border-color: var(--darkgreen-clr);
+  }
+}
+
+// Media queries
+@import "./media.scss";

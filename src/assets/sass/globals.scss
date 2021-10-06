@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+// Variables
+:root {
+  // Colors
+  --black-clr: #1b1b25;
+  --lightblack-clr: #656565;
+  --dark-clr: #223354;
+  --lightdark-clr: #BA68C8;
+  --light-clr: #eeeeee;
+  --darkgray-clr: #4b4d50;
+  --gray-clr: #a0a4a5;
+  --lightgray-clr: #f4f4f7;
+  --white-clr: #ffffff;
+  --slategray-clr: #ceced1;
+  --darkgreen-clr: #BA68C8;
+  --green-clr: #BA68C8;
+  --blue-clr: #BA68C8;
+  --lightblue-clr: #BA68C8;
+  --red-clr: #bd3134;
+  --lightred-clr: #cd4040;
+  // Fonts
+  --ft-family: "Lato";
+  --ft-size-s: 1.3rem;
+  --ft-size-n: 1.4rem;
+  --ft-size-m: 1.8rem;
+  --ft-size-lg: 2.8rem;
+  // Sizes
+  --nav-height: 6rem;
+  --techloveconf-width: 18rem;
+  --astronauts-width: 24rem;
+  --avatar-size: 7rem;
+  --twitter-size: 2rem;
+  --empty-size: 35rem;
+  --error-size: 35rem;
+  --search-size: 2rem;
+  // Animation
+  --loading-size: 3rem;
+  --animation-timing: cubic-bezier(0.45, 0, 0.55, 1);
+}
